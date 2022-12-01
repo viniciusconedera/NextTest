@@ -17,7 +17,7 @@ export function Layout({children, title}: LayoutProps) {
         <h1>My job Board</h1>
         <nav style={{display: 'flex',gap: '16px'}}>
           <Link href='/'>Home</Link>
-          <Link href='/about'>About</Link>
+          <Link href='/about' prefetch={false}>About</Link>
         </nav>
         <hr />
       </header>
